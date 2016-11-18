@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (1.0.2)
+  - XCDYouTubeKit (2.5.3)
+
+DEPENDENCIES:
+  - Masonry
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  XCDYouTubeKit: 90690f9e3523735dc93b8024269d991b0cfffe78
+
+COCOAPODS: 0.39.0

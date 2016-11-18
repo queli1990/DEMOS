@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079E4D7C7B09595AFFE5AA03 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E38F114598A5445C0EF02D43 /* libPods.a */; };
+		FB1AA2A01DD5645900EC0688 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1AA29F1DD5645900EC0688 /* HomeViewController.m */; };
+		FB63E8AB1DD2BFA9000CA2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E8AA1DD2BFA9000CA2E1 /* main.m */; };
+		FB63E8AE1DD2BFA9000CA2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E8AD1DD2BFA9000CA2E1 /* AppDelegate.m */; };
+		FB63E8B11DD2BFA9000CA2E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E8B01DD2BFA9000CA2E1 /* ViewController.m */; };
+		FB63E8B41DD2BFA9000CA2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB63E8B21DD2BFA9000CA2E1 /* Main.storyboard */; };
+		FB63E8B61DD2BFA9000CA2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB63E8B51DD2BFA9000CA2E1 /* Assets.xcassets */; };
+		FB63E8B91DD2BFA9000CA2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB63E8B71DD2BFA9000CA2E1 /* LaunchScreen.storyboard */; };
+		FB63E8C41DD2BFA9000CA2E1 /* VegoTVWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E8C31DD2BFA9000CA2E1 /* VegoTVWebTests.m */; };
+		FB63E8CF1DD2BFA9000CA2E1 /* VegoTVWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E8CE1DD2BFA9000CA2E1 /* VegoTVWebUITests.m */; };
+		FB63E8DE1DD2BFD4000CA2E1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB63E8DD1DD2BFD4000CA2E1 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB63E8C01DD2BFA9000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E89E1DD2BFA8000CA2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB63E8A51DD2BFA9000CA2E1;
+			remoteInfo = VegoTVWeb;
+		};
+		FB63E8CB1DD2BFA9000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E89E1DD2BFA8000CA2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB63E8A51DD2BFA9000CA2E1;
+			remoteInfo = VegoTVWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E20939DE03806E708AD488 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E38F114598A5445C0EF02D43 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE87C915CB5B88DD43EDB3C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1AA29E1DD5645900EC0688 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FB1AA29F1DD5645900EC0688 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FB1AA2E31DD567DD00EC0688 /* pchFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pchFile.pch; sourceTree = "<group>"; };
+		FB63E8A61DD2BFA9000CA2E1 /* VegoTVWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegoTVWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E8AA1DD2BFA9000CA2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB63E8AC1DD2BFA9000CA2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB63E8AD1DD2BFA9000CA2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB63E8AF1DD2BFA9000CA2E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB63E8B01DD2BFA9000CA2E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB63E8B31DD2BFA9000CA2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB63E8B51DD2BFA9000CA2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB63E8B81DD2BFA9000CA2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB63E8BA1DD2BFA9000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E8BF1DD2BFA9000CA2E1 /* VegoTVWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegoTVWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E8C31DD2BFA9000CA2E1 /* VegoTVWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VegoTVWebTests.m; sourceTree = "<group>"; };
+		FB63E8C51DD2BFA9000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E8CA1DD2BFA9000CA2E1 /* VegoTVWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegoTVWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E8CE1DD2BFA9000CA2E1 /* VegoTVWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VegoTVWebUITests.m; sourceTree = "<group>"; };
+		FB63E8D01DD2BFA9000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E8DD1DD2BFD4000CA2E1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB63E8A31DD2BFA9000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E8DE1DD2BFD4000CA2E1 /* WebKit.framework in Frameworks */,
+				079E4D7C7B09595AFFE5AA03 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8BC1DD2BFA9000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8C71DD2BFA9000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A52D5B9DBED3DE3BEDAC6EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE87C915CB5B88DD43EDB3C0 /* Pods.debug.xcconfig */,
+				12E20939DE03806E708AD488 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB63E89D1DD2BFA8000CA2E1 = {
+			isa = PBXGroup;
+			children = (
+				FB63E8A81DD2BFA9000CA2E1 /* VegoTVWeb */,
+				FB63E8C21DD2BFA9000CA2E1 /* VegoTVWebTests */,
+				FB63E8CD1DD2BFA9000CA2E1 /* VegoTVWebUITests */,
+				FB63E8A71DD2BFA9000CA2E1 /* Products */,
+				FB63E8DC1DD2BFD4000CA2E1 /* Frameworks */,
+				7A52D5B9DBED3DE3BEDAC6EF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FB63E8A71DD2BFA9000CA2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8A61DD2BFA9000CA2E1 /* VegoTVWeb.app */,
+				FB63E8BF1DD2BFA9000CA2E1 /* VegoTVWebTests.xctest */,
+				FB63E8CA1DD2BFA9000CA2E1 /* VegoTVWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB63E8A81DD2BFA9000CA2E1 /* VegoTVWeb */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8AC1DD2BFA9000CA2E1 /* AppDelegate.h */,
+				FB63E8AD1DD2BFA9000CA2E1 /* AppDelegate.m */,
+				FB63E8AF1DD2BFA9000CA2E1 /* ViewController.h */,
+				FB63E8B01DD2BFA9000CA2E1 /* ViewController.m */,
+				FB1AA29E1DD5645900EC0688 /* HomeViewController.h */,
+				FB1AA29F1DD5645900EC0688 /* HomeViewController.m */,
+				FB1AA2E31DD567DD00EC0688 /* pchFile.pch */,
+				FB63E8B21DD2BFA9000CA2E1 /* Main.storyboard */,
+				FB63E8B51DD2BFA9000CA2E1 /* Assets.xcassets */,
+				FB63E8B71DD2BFA9000CA2E1 /* LaunchScreen.storyboard */,
+				FB63E8BA1DD2BFA9000CA2E1 /* Info.plist */,
+				FB63E8A91DD2BFA9000CA2E1 /* Supporting Files */,
+			);
+			path = VegoTVWeb;
+			sourceTree = "<group>";
+		};
+		FB63E8A91DD2BFA9000CA2E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8AA1DD2BFA9000CA2E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB63E8C21DD2BFA9000CA2E1 /* VegoTVWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8C31DD2BFA9000CA2E1 /* VegoTVWebTests.m */,
+				FB63E8C51DD2BFA9000CA2E1 /* Info.plist */,
+			);
+			path = VegoTVWebTests;
+			sourceTree = "<group>";
+		};
+		FB63E8CD1DD2BFA9000CA2E1 /* VegoTVWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8CE1DD2BFA9000CA2E1 /* VegoTVWebUITests.m */,
+				FB63E8D01DD2BFA9000CA2E1 /* Info.plist */,
+			);
+			path = VegoTVWebUITests;
+			sourceTree = "<group>";
+		};
+		FB63E8DC1DD2BFD4000CA2E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8DD1DD2BFD4000CA2E1 /* WebKit.framework */,
+				E38F114598A5445C0EF02D43 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB63E8A51DD2BFA9000CA2E1 /* VegoTVWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E8D31DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWeb" */;
+			buildPhases = (
+				2E71DE7C11BB1ED6586DDDDB /* Check Pods Manifest.lock */,
+				FB63E8A21DD2BFA9000CA2E1 /* Sources */,
+				FB63E8A31DD2BFA9000CA2E1 /* Frameworks */,
+				FB63E8A41DD2BFA9000CA2E1 /* Resources */,
+				6AADD174F145FB20195B16D1 /* Embed Pods Frameworks */,
+				334A5F2589ED99FFB26D9480 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VegoTVWeb;
+			productName = VegoTVWeb;
+			productReference = FB63E8A61DD2BFA9000CA2E1 /* VegoTVWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB63E8BE1DD2BFA9000CA2E1 /* VegoTVWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E8D61DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWebTests" */;
+			buildPhases = (
+				FB63E8BB1DD2BFA9000CA2E1 /* Sources */,
+				FB63E8BC1DD2BFA9000CA2E1 /* Frameworks */,
+				FB63E8BD1DD2BFA9000CA2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB63E8C11DD2BFA9000CA2E1 /* PBXTargetDependency */,
+			);
+			name = VegoTVWebTests;
+			productName = VegoTVWebTests;
+			productReference = FB63E8BF1DD2BFA9000CA2E1 /* VegoTVWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB63E8C91DD2BFA9000CA2E1 /* VegoTVWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E8D91DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWebUITests" */;
+			buildPhases = (
+				FB63E8C61DD2BFA9000CA2E1 /* Sources */,
+				FB63E8C71DD2BFA9000CA2E1 /* Frameworks */,
+				FB63E8C81DD2BFA9000CA2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB63E8CC1DD2BFA9000CA2E1 /* PBXTargetDependency */,
+			);
+			name = VegoTVWebUITests;
+			productName = VegoTVWebUITests;
+			productReference = FB63E8CA1DD2BFA9000CA2E1 /* VegoTVWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB63E89E1DD2BFA8000CA2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = QL;
+				TargetAttributes = {
+					FB63E8A51DD2BFA9000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L83CXR88RY;
+						ProvisioningStyle = Automatic;
+					};
+					FB63E8BE1DD2BFA9000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB63E8A51DD2BFA9000CA2E1;
+					};
+					FB63E8C91DD2BFA9000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB63E8A51DD2BFA9000CA2E1;
+					};
+				};
+			};
+			buildConfigurationList = FB63E8A11DD2BFA8000CA2E1 /* Build configuration list for PBXProject "VegoTVWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB63E89D1DD2BFA8000CA2E1;
+			productRefGroup = FB63E8A71DD2BFA9000CA2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB63E8A51DD2BFA9000CA2E1 /* VegoTVWeb */,
+				FB63E8BE1DD2BFA9000CA2E1 /* VegoTVWebTests */,
+				FB63E8C91DD2BFA9000CA2E1 /* VegoTVWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB63E8A41DD2BFA9000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E8B91DD2BFA9000CA2E1 /* LaunchScreen.storyboard in Resources */,
+				FB63E8B61DD2BFA9000CA2E1 /* Assets.xcassets in Resources */,
+				FB63E8B41DD2BFA9000CA2E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8BD1DD2BFA9000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8C81DD2BFA9000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E71DE7C11BB1ED6586DDDDB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		334A5F2589ED99FFB26D9480 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AADD174F145FB20195B16D1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB63E8A21DD2BFA9000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E8B11DD2BFA9000CA2E1 /* ViewController.m in Sources */,
+				FB63E8AE1DD2BFA9000CA2E1 /* AppDelegate.m in Sources */,
+				FB63E8AB1DD2BFA9000CA2E1 /* main.m in Sources */,
+				FB1AA2A01DD5645900EC0688 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8BB1DD2BFA9000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E8C41DD2BFA9000CA2E1 /* VegoTVWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E8C61DD2BFA9000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E8CF1DD2BFA9000CA2E1 /* VegoTVWebUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB63E8C11DD2BFA9000CA2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB63E8A51DD2BFA9000CA2E1 /* VegoTVWeb */;
+			targetProxy = FB63E8C01DD2BFA9000CA2E1 /* PBXContainerItemProxy */;
+		};
+		FB63E8CC1DD2BFA9000CA2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB63E8A51DD2BFA9000CA2E1 /* VegoTVWeb */;
+			targetProxy = FB63E8CB1DD2BFA9000CA2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB63E8B21DD2BFA9000CA2E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB63E8B31DD2BFA9000CA2E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB63E8B71DD2BFA9000CA2E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB63E8B81DD2BFA9000CA2E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB63E8D11DD2BFA9000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB63E8D21DD2BFA9000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB63E8D41DD2BFA9000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE87C915CB5B88DD43EDB3C0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L83CXR88RY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VegoTVWeb/pchFile.pch";
+				INFOPLIST_FILE = VegoTVWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWeb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB63E8D51DD2BFA9000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E20939DE03806E708AD488 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L83CXR88RY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VegoTVWeb/pchFile.pch";
+				INFOPLIST_FILE = VegoTVWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWeb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB63E8D71DD2BFA9000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VegoTVWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegoTVWeb.app/VegoTVWeb";
+			};
+			name = Debug;
+		};
+		FB63E8D81DD2BFA9000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VegoTVWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VegoTVWeb.app/VegoTVWeb";
+			};
+			name = Release;
+		};
+		FB63E8DA1DD2BFA9000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VegoTVWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VegoTVWeb;
+			};
+			name = Debug;
+		};
+		FB63E8DB1DD2BFA9000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VegoTVWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.VegoTVWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VegoTVWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB63E8A11DD2BFA8000CA2E1 /* Build configuration list for PBXProject "VegoTVWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E8D11DD2BFA9000CA2E1 /* Debug */,
+				FB63E8D21DD2BFA9000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E8D31DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E8D41DD2BFA9000CA2E1 /* Debug */,
+				FB63E8D51DD2BFA9000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E8D61DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E8D71DD2BFA9000CA2E1 /* Debug */,
+				FB63E8D81DD2BFA9000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E8D91DD2BFA9000CA2E1 /* Build configuration list for PBXNativeTarget "VegoTVWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E8DA1DD2BFA9000CA2E1 /* Debug */,
+				FB63E8DB1DD2BFA9000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB63E89E1DD2BFA8000CA2E1 /* Project object */;
+}
