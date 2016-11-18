@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB63E9011DD30769000CA2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E9001DD30769000CA2E1 /* main.m */; };
+		FB63E9041DD30769000CA2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E9031DD30769000CA2E1 /* AppDelegate.m */; };
+		FB63E9071DD30769000CA2E1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB63E9061DD30769000CA2E1 /* ViewController.mm */; };
+		FB63E90A1DD30769000CA2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB63E9081DD30769000CA2E1 /* Main.storyboard */; };
+		FB63E90C1DD30769000CA2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB63E90B1DD30769000CA2E1 /* Assets.xcassets */; };
+		FB63E90F1DD30769000CA2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB63E90D1DD30769000CA2E1 /* LaunchScreen.storyboard */; };
+		FB63E91A1DD30769000CA2E1 /* dlna_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E9191DD30769000CA2E1 /* dlna_DemoTests.m */; };
+		FB63E9251DD30769000CA2E1 /* dlna_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB63E9241DD30769000CA2E1 /* dlna_DemoUITests.m */; };
+		FB63E93F1DD30917000CA2E1 /* libdlnaclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB63E93C1DD3090B000CA2E1 /* libdlnaclient.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB63E9161DD30769000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E8F41DD30769000CA2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB63E8FB1DD30769000CA2E1;
+			remoteInfo = dlna_Demo;
+		};
+		FB63E9211DD30769000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E8F41DD30769000CA2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB63E8FB1DD30769000CA2E1;
+			remoteInfo = dlna_Demo;
+		};
+		FB63E9391DD3090B000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF9D5EDD1DAE18B200964DAD;
+			remoteInfo = dlnaclient_test;
+		};
+		FB63E93B1DD3090B000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF74282C1DBA26C10020360C;
+			remoteInfo = dlnaclient;
+		};
+		FB63E93D1DD3090B000CA2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFEE82161DC9D1C70060200C;
+			remoteInfo = dlnaclient_ios_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB63E8FC1DD30769000CA2E1 /* dlna_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dlna_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E9001DD30769000CA2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB63E9021DD30769000CA2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB63E9031DD30769000CA2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB63E9051DD30769000CA2E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB63E9061DD30769000CA2E1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FB63E9091DD30769000CA2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB63E90B1DD30769000CA2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB63E90E1DD30769000CA2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB63E9101DD30769000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E9151DD30769000CA2E1 /* dlna_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dlna_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E9191DD30769000CA2E1 /* dlna_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dlna_DemoTests.m; sourceTree = "<group>"; };
+		FB63E91B1DD30769000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E9201DD30769000CA2E1 /* dlna_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dlna_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63E9241DD30769000CA2E1 /* dlna_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dlna_DemoUITests.m; sourceTree = "<group>"; };
+		FB63E9261DD30769000CA2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dlnaclient.xcodeproj; path = "../dial-master/dlnaclient.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB63E8F91DD30769000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E93F1DD30917000CA2E1 /* libdlnaclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E9121DD30769000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E91D1DD30769000CA2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB63E8F31DD30769000CA2E1 = {
+			isa = PBXGroup;
+			children = (
+				FB63E8FE1DD30769000CA2E1 /* dlna_Demo */,
+				FB63E9181DD30769000CA2E1 /* dlna_DemoTests */,
+				FB63E9231DD30769000CA2E1 /* dlna_DemoUITests */,
+				FB63E8FD1DD30769000CA2E1 /* Products */,
+				FB63E9321DD3090A000CA2E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB63E8FD1DD30769000CA2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E8FC1DD30769000CA2E1 /* dlna_Demo.app */,
+				FB63E9151DD30769000CA2E1 /* dlna_DemoTests.xctest */,
+				FB63E9201DD30769000CA2E1 /* dlna_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB63E8FE1DD30769000CA2E1 /* dlna_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E9021DD30769000CA2E1 /* AppDelegate.h */,
+				FB63E9031DD30769000CA2E1 /* AppDelegate.m */,
+				FB63E9051DD30769000CA2E1 /* ViewController.h */,
+				FB63E9061DD30769000CA2E1 /* ViewController.mm */,
+				FB63E9081DD30769000CA2E1 /* Main.storyboard */,
+				FB63E90B1DD30769000CA2E1 /* Assets.xcassets */,
+				FB63E90D1DD30769000CA2E1 /* LaunchScreen.storyboard */,
+				FB63E9101DD30769000CA2E1 /* Info.plist */,
+				FB63E8FF1DD30769000CA2E1 /* Supporting Files */,
+			);
+			path = dlna_Demo;
+			sourceTree = "<group>";
+		};
+		FB63E8FF1DD30769000CA2E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E9001DD30769000CA2E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB63E9181DD30769000CA2E1 /* dlna_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E9191DD30769000CA2E1 /* dlna_DemoTests.m */,
+				FB63E91B1DD30769000CA2E1 /* Info.plist */,
+			);
+			path = dlna_DemoTests;
+			sourceTree = "<group>";
+		};
+		FB63E9231DD30769000CA2E1 /* dlna_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E9241DD30769000CA2E1 /* dlna_DemoUITests.m */,
+				FB63E9261DD30769000CA2E1 /* Info.plist */,
+			);
+			path = dlna_DemoUITests;
+			sourceTree = "<group>";
+		};
+		FB63E9321DD3090A000CA2E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB63E9341DD3090B000CA2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB63E93A1DD3090B000CA2E1 /* dlnaclient_test */,
+				FB63E93C1DD3090B000CA2E1 /* libdlnaclient.a */,
+				FB63E93E1DD3090B000CA2E1 /* dlnaclient_ios_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB63E8FB1DD30769000CA2E1 /* dlna_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E9291DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_Demo" */;
+			buildPhases = (
+				FB63E8F81DD30769000CA2E1 /* Sources */,
+				FB63E8F91DD30769000CA2E1 /* Frameworks */,
+				FB63E8FA1DD30769000CA2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dlna_Demo;
+			productName = dlna_Demo;
+			productReference = FB63E8FC1DD30769000CA2E1 /* dlna_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB63E9141DD30769000CA2E1 /* dlna_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E92C1DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_DemoTests" */;
+			buildPhases = (
+				FB63E9111DD30769000CA2E1 /* Sources */,
+				FB63E9121DD30769000CA2E1 /* Frameworks */,
+				FB63E9131DD30769000CA2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB63E9171DD30769000CA2E1 /* PBXTargetDependency */,
+			);
+			name = dlna_DemoTests;
+			productName = dlna_DemoTests;
+			productReference = FB63E9151DD30769000CA2E1 /* dlna_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB63E91F1DD30769000CA2E1 /* dlna_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63E92F1DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_DemoUITests" */;
+			buildPhases = (
+				FB63E91C1DD30769000CA2E1 /* Sources */,
+				FB63E91D1DD30769000CA2E1 /* Frameworks */,
+				FB63E91E1DD30769000CA2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB63E9221DD30769000CA2E1 /* PBXTargetDependency */,
+			);
+			name = dlna_DemoUITests;
+			productName = dlna_DemoUITests;
+			productReference = FB63E9201DD30769000CA2E1 /* dlna_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB63E8F41DD30769000CA2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = QL;
+				TargetAttributes = {
+					FB63E8FB1DD30769000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FB63E9141DD30769000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB63E8FB1DD30769000CA2E1;
+					};
+					FB63E91F1DD30769000CA2E1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB63E8FB1DD30769000CA2E1;
+					};
+				};
+			};
+			buildConfigurationList = FB63E8F71DD30769000CA2E1 /* Build configuration list for PBXProject "dlna_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB63E8F31DD30769000CA2E1;
+			productRefGroup = FB63E8FD1DD30769000CA2E1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB63E9341DD3090B000CA2E1 /* Products */;
+					ProjectRef = FB63E9331DD3090B000CA2E1 /* dlnaclient.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FB63E8FB1DD30769000CA2E1 /* dlna_Demo */,
+				FB63E9141DD30769000CA2E1 /* dlna_DemoTests */,
+				FB63E91F1DD30769000CA2E1 /* dlna_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB63E93A1DD3090B000CA2E1 /* dlnaclient_test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = dlnaclient_test;
+			remoteRef = FB63E9391DD3090B000CA2E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB63E93C1DD3090B000CA2E1 /* libdlnaclient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdlnaclient.a;
+			remoteRef = FB63E93B1DD3090B000CA2E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB63E93E1DD3090B000CA2E1 /* dlnaclient_ios_test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = dlnaclient_ios_demo.app;
+			remoteRef = FB63E93D1DD3090B000CA2E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB63E8FA1DD30769000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E90F1DD30769000CA2E1 /* LaunchScreen.storyboard in Resources */,
+				FB63E90C1DD30769000CA2E1 /* Assets.xcassets in Resources */,
+				FB63E90A1DD30769000CA2E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E9131DD30769000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E91E1DD30769000CA2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB63E8F81DD30769000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E9071DD30769000CA2E1 /* ViewController.mm in Sources */,
+				FB63E9041DD30769000CA2E1 /* AppDelegate.m in Sources */,
+				FB63E9011DD30769000CA2E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E9111DD30769000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E91A1DD30769000CA2E1 /* dlna_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63E91C1DD30769000CA2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63E9251DD30769000CA2E1 /* dlna_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB63E9171DD30769000CA2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB63E8FB1DD30769000CA2E1 /* dlna_Demo */;
+			targetProxy = FB63E9161DD30769000CA2E1 /* PBXContainerItemProxy */;
+		};
+		FB63E9221DD30769000CA2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB63E8FB1DD30769000CA2E1 /* dlna_Demo */;
+			targetProxy = FB63E9211DD30769000CA2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB63E9081DD30769000CA2E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB63E9091DD30769000CA2E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB63E90D1DD30769000CA2E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB63E90E1DD30769000CA2E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB63E9271DD30769000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB63E9281DD30769000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB63E92A1DD30769000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"../dial-master/depe/tinyxml2",
+					"../dial-master",
+					"../dial-master/depe/rapidjson/include",
+				);
+				INFOPLIST_FILE = dlna_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB63E92B1DD30769000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"../dial-master/depe/tinyxml2",
+					"../dial-master",
+					"../dial-master/depe/rapidjson/include",
+				);
+				INFOPLIST_FILE = dlna_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB63E92D1DD30769000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dlna_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dlna_Demo.app/dlna_Demo";
+			};
+			name = Debug;
+		};
+		FB63E92E1DD30769000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dlna_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dlna_Demo.app/dlna_Demo";
+			};
+			name = Release;
+		};
+		FB63E9301DD30769000CA2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dlna_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dlna_Demo;
+			};
+			name = Debug;
+		};
+		FB63E9311DD30769000CA2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dlna_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.dlna-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dlna_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB63E8F71DD30769000CA2E1 /* Build configuration list for PBXProject "dlna_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E9271DD30769000CA2E1 /* Debug */,
+				FB63E9281DD30769000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E9291DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E92A1DD30769000CA2E1 /* Debug */,
+				FB63E92B1DD30769000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E92C1DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E92D1DD30769000CA2E1 /* Debug */,
+				FB63E92E1DD30769000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB63E92F1DD30769000CA2E1 /* Build configuration list for PBXNativeTarget "dlna_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63E9301DD30769000CA2E1 /* Debug */,
+				FB63E9311DD30769000CA2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB63E8F41DD30769000CA2E1 /* Project object */;
+}
