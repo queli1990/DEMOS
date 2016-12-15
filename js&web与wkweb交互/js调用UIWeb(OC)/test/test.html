@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Title</title>
+            <script>
+                
+                function load(){
+                    
+                    document.getElementById("target").onclick();
+                }
+            
+            function test(){
+                
+                // 后台可以这样写, 调用oc中IOS这个类的print('123')方法
+                // 可以传递参数, 如果不想传递参数,则js和oc均不写参数即可
+                IOS.print('123');
+                
+            }
+            
+                </script>
+    </head>
+    <body onload="load()">
+        
+        <button id="target" onclick="test()">测试这个按钮的点击</button>
+    </body>
+</html>
